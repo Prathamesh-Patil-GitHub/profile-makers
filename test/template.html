@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Template</title>
+</head>
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .dp {
+        height: 35vh;
+        width: 15vw;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: black;
+        color: white;
+        margin: 0;
+    }
+    .contact{
+        background-color:white;
+        color: black;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .info-heading{
+        color:rgb(224, 193, 14);
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="profile">
+            <img src="/img/sample-profile.png" alt="Display Photo" class="dp">
+            <center>
+                <h1>Sample Name</h1>
+            </center>
+        </div>
+        <div class="personal-information">
+            <center>
+                <h1 class="info-heading">Personal Information</h1>
+                <h3 class="info-heading">Name</h3>
+                <p>Sample Sample Sample</p>
+                <h3 class="info-heading">Address</h3>
+                <p>Sample Address</p>
+                <h3 class="info-heading">Education</h3>
+                <p>Sample Education</p>
+                <h3 class="info-heading">Profession</h3>
+                <p>Sample Profession</p>
+                <h3 class="info-heading">Skills</h3>
+                <p>Sample Skills</p>
+                <h3 class="info-heading">More Information</h3>
+                <div style="width:30vw;">
+                    <p>Sample Information: Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque hic eos doloribus similique nihil, minima necessitatibus,.</p>
+                </div>
+            </center>
+        </div>
+    </div>
+    <center>
+        <br>
+        <h1>Contact Information</h1>
+        <br><br>
+        <div class="contact">
+                <span id="mobile">
+                    <b>Mobile</b><br><br>
+                    <a href="tel:9999999999">9999999999</a>
+                </span> 
+                <span id="mail">
+                    <b>Mail</b><br><br>
+                    <a href="mailto:mail@mail.com">mail@mail.com</a>
+                </span> 
+                <span id="facebook">
+                    <b>Facebook</b><br><br>
+                    <a href="sample.facebook.com">sample.facebook.com</a>
+                </span>
+                <span id="linkedin">
+                    <b>LinkedIn</b><br><br>
+                    <a href="sample.linkedin.com">sample.linkedin.com</a>
+                </span>
+                <span id="twitter">
+                    <b>Twitter</b><br><br>
+                    <a href="sample.twitter.com">sample.twitter.com</a>
+                </span>
+                <span id="youtube">
+                    <b>Youtube</b><br><br>
+                    <a href="sample.youtube.com">sample.youtube.com</a>
+                </span>
+        </div>
+        <br>
+    </center>
+</body>
+
+</html>

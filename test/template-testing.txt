@@ -1,0 +1,23 @@
+For Checking:
+<script>
+document.getElementById("title").innerHTML="My title";
+document.getElementById("name").innerHTML="My name";
+document.getElementById("image").src="/img/sample-me.jpg";
+document.getElementById("address").innerHTML="MY address";
+document.getElementById("education").innerHTML="My education";
+document.getElementById("profession").innerHTML="My Profession";
+document.getElementById("skills").innerHTML="My skills";
+document.getElementById("more-info").innerHTML="My tooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo much info";
+document.getElementById("mobile").innerHTML="0000000000";
+document.getElementById("mail").href="mailto:sample@sample.com";
+document.getElementById("linkedin").href="http://linkedin.com";
+document.getElementById("instagram").href="http://instagram.com";
+document.getElementById("youtube").href="http://youtube.com";
+document.getElementById("facebook").href="http://facebook.com";
+document.getElementById("twitter").href="http://twitter.com";
+</script>
+
+For Disabling:
+<script>
+document.getElementById("twitter").hidden=true;
+</script>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style> 
+     body{
+    font-family: 'Poppins', sans-serif;
+   }
+.col-md-8 {
+    width: 66.66666667%;
+}
+   .user-img{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #e4eeff;
+    margin-bottom: 20px;
+   }
+ .user-img img{ 
+    height: 200px;
+   }
+.short {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #94abd2;
+}
+   .short ul {
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+   .short h1 {
+    margin-top: 5px;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    color: #3d64b2;
+}
+.short ul li {
+    margin: 0 0 0px 0;
+    width: 100%;
+    float: left;
+}
+.short ul li .list_inner {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative;
+    margin-top: 5px;
+    padding-left: 30px;
+}
+.short ul li .list_inner span {
+    font-size: 15px;
+    color: #000;
+    font-family: Poppins;
+}
+.short ul li .list_inner .svg {
+    position: absolute;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    margin-top: -1px;
+    transform: translateY(-50%);
+    color: #ff4522;
+}
+.info-wrap {
+    margin-bottom: 15px;
+}
+.info-wrap h1{
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    color: #3d64b2;
+}
+.info-wrap h2 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #323d50;
+    margin-top: 5px;
+}
+.info-wrap h2 span{
+    color: #1a74d1;
+    font-weight: 700;
+    
+}
+.info-wrap h3{
+    
+    margin-top: 0;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.info-wrap h3 span {
+    color: #1a74d1;
+    font-weight: 700;
+}
+  .social {
+    position: relative;
+}
+
+.social ul li {
+    margin-right: 8px;
+}
+
+.social ul li {
+    margin: 10px 10px 0 0;
+    display: inline-block;
+    width: auto;
+}
+ .social ul li a {
+    text-decoration: none;
+    color: #000;
+}
+ .social ul li .svg {
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+.shape-box{
+    position: relative;
+    padding: 70px;
+    background-color: #e4eeff;
+    border-radius: 15px;
+    box-shadow: 7px 7px 12px rgb(108 99 255 / 9%);
+    margin-bottom: 70px;
+}
+.shape {
+    position: absolute;
+    top: 23px;
+    bottom: -23px;
+    left: -95px;
+    width: 90%;
+    background-color: #5a82d2;
+    transform: rotate(356deg);
+    z-index: -1;
+    border-radius: 10px;
+    transition: all .4s ease;
+}
+</style>
+  <title id="title">Simply Blue</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="shape-box">
+        <div class="shape"></div>
+        <div class="user-img">
+          <img src="/img/sample-profile.png" class="img-responsive" id="image">
+        </div>
+        <div class="info-wrap">
+          <h1>Personal Information</h1>
+          <h3><span>Name : </span></h3><span id="name">Sample Name</span>
+          <h3><span>Address : </span></h3><span id="address">Sample Address</span>
+          <h3><span>Profession : </span></h3><span id="profession">Sample Profession</span>
+          <h3><span>Education : </span></h3><span id="education">Sample Education</span>
+          <h3><span>Skills : </span></h3><span id="skills">Sample Skills</span>
+          <h3><span>More Information : </span></h3><span id="more-info">More Sample Information Entered</span>
+        </div>
+        <div class="short">
+          <h1>Contact Information</h1>
+          <h3><span style="color: #1a74d1; font-weight: 700; font-size: 15px;">Mobile: </span></h3><p id="mobile">898989898</p>
+          <br>
+          <ul style="
+          list-style: none;
+          text-align: left;
+          width: 63%;
+          display: flex;
+          justify-content: space-evenly;;
+          align-items: center;
+        ">
+      <li>
+        <a href="#" id="linkedin">
+          <img style="height: 30px; width: 30px; margin: 0 5px" alt="Linkedin" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-linkedin-social-media-justicon-lineal-color-justicon.png"
+          /></a>
+      </li>
+      <li>
+        <a href="#" id="instagram">
+          <img style="height: 40px; width: 40px; margin: 0 5px" alt="Instagram" src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a>
+      </li>
+      <li>
+        <a href="#" id="youtube">
+          <img style="height: 40px; width: 40px; margin: 0 5px" alt="Youtube" src="https://img.icons8.com/doodle/48/000000/youtube-play--v2.png"
+          /></a>
+      </li>
+      <li>
+        <a href="#" id="twitter">
+          <img style="height: 40px; width: 40px; margin: 0 5px" alt="Twitter" src="https://img.icons8.com/doodle/48/000000/twitter.png"
+          /></a>
+      </li>
+      <li>
+        <a href="#" id="facebook">
+          <img style="height: 40px; width: 40px; margin: 0 5px" alt="Twitter" src="https://img.icons8.com/doodle/48/000000/facebook.png"
+          /></a>
+      </li>
+      <li>
+        <a href="#" id="mail">
+          <img style="height: 40px; width: 40px; margin: 0 5px" alt="Mail" src="https://img.icons8.com/doodle/48/000000/gmail.png"
+          /></a>
+      </li>
+    </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
