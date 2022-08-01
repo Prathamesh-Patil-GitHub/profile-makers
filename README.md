@@ -18,5 +18,32 @@ with this world of internet and websites.
 So, if you want to make your own web profile, just visit ProfileMakers 
 website and create your own web profile today.
 
+## Screen Snapshots - 
+- Home Screen:
+<p align="center">
+<img src="https://github.com/Prathamesh-Patil-GitHub/profile-makers/blob/main/report/home%20output.png"/>
+</p>
+
+- Create Profile Screen:
+<p align="center">
+<img src="https://github.com/Prathamesh-Patil-GitHub/profile-makers/blob/main/report/create%20profile%20output.png"/>
+</p>
+
+## Templates -
+- Free Red:
+<p align="center">
+<img src="https://github.com/Prathamesh-Patil-GitHub/profile-makers/blob/main/report/Free%20Red.png"/>
+</p>
+
+- Shiny Purple:
+<p align="center">
+<img src="https://github.com/Prathamesh-Patil-GitHub/profile-makers/blob/main/report/Shiny%20Purple.png"/>
+</p>
+
+- Simply Blue:
+<p align="center">
+<img src="https://github.com/Prathamesh-Patil-GitHub/profile-makers/blob/main/report/Simply%20Blue.png"/>
+</p>
+
 ### You can view the detailed project report here - 
 https://github.com/Prathamesh-Patil-GitHub/profile-makers/blob/main/report/Project%20Report.pdf
