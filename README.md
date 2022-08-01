@@ -17,3 +17,6 @@ yourself in interviews or business meetings. It shows how updated you are
 with this world of internet and websites. 
 So, if you want to make your own web profile, just visit ProfileMakers 
 website and create your own web profile today.
+
+### You can view the detailed project report here - 
+https://github.com/Prathamesh-Patil-GitHub/profile-makers/blob/main/report/Project%20Report.pdf
